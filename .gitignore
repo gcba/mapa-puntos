@@ -1,0 +1,16 @@
+# Archivos generados por el sistema operativo
+desktop.ini
+thumbs.db
+.DS_Store
+.localized
+
+# Archivos de desarrollo
+.git/
+node_modules/
+
+# Archivos de configuración
+libs/cartodb.config.php
+
+
+
+
