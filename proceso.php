@@ -32,7 +32,6 @@ $SQLQ = "INSERT%20INTO%20" . $config['table'] . "%20(". $columnas_db .")%20VALUE
 $url = "http://" . $config['subdomain']. ".cartodb.com/api/v2/sql?q=" . $SQLQ ;
 
 //posteo a la base de datos verificacion de captcha
-echo "Escribiendo...";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
