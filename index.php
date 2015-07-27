@@ -57,7 +57,7 @@
 </body>
 
 <script>
-var viz = "https://pinkcoso.cartodb.com/api/v2/viz/d8ade30c-f800-11e4-bbf9-0e43f3deba5a/viz.json";
+var viz = "https://gcba.cartodb.com/api/v2/viz/78f24052-3478-11e5-961d-0e0c41326911/viz.json";
 
 window.onload = function() {
 
