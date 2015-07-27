@@ -61,13 +61,15 @@
 </body>
 
 <script>
-var viz = "https://gcba.cartodb.com/api/v2/viz/78f24052-3478-11e5-961d-0e0c41326911/viz.json";
+var url2vis = "https://gcba.cartodb.com/api/v2/viz/78f24052-3478-11e5-961d-0e0c41326911/viz.json";
+var capas;
 
 window.onload = function() {
 
-    cartodb.createVis('map', viz)
+    cartodb.createVis('map', url2vis)
         .done(function(vis, layers) {
             $("#loader").remove();
+            capas = layers;
         });
   
 }
