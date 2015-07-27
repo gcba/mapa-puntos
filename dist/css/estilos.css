@@ -26,9 +26,9 @@ html, body {
   clear: both;
   position: absolute;
   width: 100%;
-  z-index: 999;
+  z-index: 500;
   height: 50px;
-  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 2px 2px #999; }
   #contenidos #barraNav .izquierda {
     float: left;
     text-align: left;
@@ -65,10 +65,8 @@ html, body {
 #contenidos #map {
   clear: both;
   position: absolute;
-  top: 50px;
   width: 100%;
-  height: 100%;
-  box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.25); }
+  height: 100%; }
   #contenidos #map #loader {
     position: relative;
     top: 20%;
@@ -76,11 +74,40 @@ html, body {
     width: 100%;
     height: 300px; }
 #contenidos #menu {
-  background: -webkit-linear-gradient( top , #fafafa 0px, #afafaf 100%);
-  background: linear-gradient(to bottom, #fafafa 0px, #afafaf 100%);
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  z-index: 999;
-  height: 150px;
-  box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.25); }
+  background: transparent;
+  background: transparent;
+  float: right;
+  top: 23px;
+  position: relative;
+  right: 180px;
+  z-index: 999; }
+  @media (max-width: 767px) {
+    #contenidos #menu {
+      right: 20px; } }
+  #contenidos #menu .btnRedondo {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background: #C2332E;
+    background: #C2332E; }
+  #contenidos #menu .btnRedondo:hover {
+    background: #B2231E;
+    background: #B2231E; }

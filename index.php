@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
+        <script src="libs/html5shiv.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/estilos.min.css">
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
@@ -34,7 +34,11 @@
 
 
     <div id="menu">
-        Aca viene el menu
+
+
+
+        <a href="#" class="btnRedondo" id="agregaPunto">+</a>
+        
     </div>
 </div>
 
@@ -64,10 +68,10 @@ window.onload = function() {
     cartodb.createVis('map', viz)
         .done(function(vis, layers) {
             $("#loader").remove();
-      });
-
+        });
   
 }
 
 </script>
+    <script type="text/javascript" src="js/funciones.js"></script>
 </html>
