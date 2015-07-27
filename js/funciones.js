@@ -18,7 +18,6 @@ $("#agregaPunto").click(
         $.post("proceso.php", {
             latlng_data: latlng[1] + "," + latlng[0]
         }, function(data) {
-            console.log("Post de ", data);
 
         })
         .done(function(){capas[1].setQuery("SELECT * FROM mapadepuntos");})
