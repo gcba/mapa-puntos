@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilos.min.css">
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
     <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v2/themes/css/cartodb.ie.css" />
     <![endif]-->
@@ -34,11 +35,8 @@
 
 
     <div id="menu">
-
-
-
-        <a href="#" class="btnRedondo" id="agregaPunto">+</a>
-        
+        <a href="#" class="btnRedondo" id="borraPuntos"><i class="material-icons">delete</i></a>
+        <a href="#" class="btnRedondo" id="agregaPunto"><i class="material-icons">add</i></a>
     </div>
 </div>
 

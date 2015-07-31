@@ -23,3 +23,12 @@ $("#agregaPunto").click(
         .done(function(){capas[1].setQuery("SELECT * FROM mapadepuntos");})
         ;
     });
+
+
+$("#borraPuntos").click(
+    function() {
+        var latlng = getRandomPoint();
+        $.post("borro.php").done(function(){capas[1].setQuery("SELECT * FROM mapadepuntos");});
+    });
+
+

@@ -77,13 +77,10 @@ html, body {
   background: transparent;
   background: transparent;
   float: right;
-  top: 23px;
-  position: relative;
-  right: 180px;
+  bottom: 60px;
+  position: absolute;
+  left: 17px;
   z-index: 999; }
-  @media (max-width: 767px) {
-    #contenidos #menu {
-      right: 20px; } }
   #contenidos #menu .btnRedondo {
     display: inline-block;
     position: relative;
@@ -95,7 +92,7 @@ html, body {
     text-decoration: none;
     text-align: center;
     color: #fff;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: normal;
     line-height: 2em;
     border-top-left-radius: 25px;
@@ -111,3 +108,24 @@ html, body {
   #contenidos #menu .btnRedondo:hover {
     background: #B2231E;
     background: #B2231E; }
+  #contenidos #menu .label {
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    color: #999999; }
+  #contenidos #menu .label:hover {
+    color: #000000; }
+
+.cartodb-zoom {
+  margin: 80px 0px 0px 20px !important;
+  box-shadow: 0 2px 2px #999 !important;
+  background-color: #FFFFFF !important;
+  border-radius: 0px !important;
+  border: 0px !important; }
+
+.cartodb-zoom a:hover {
+  background-color: #FaFaFa !important;
+  border-radius: 0px !important; }
+
+.loader {
+  display: none !important; }
